@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_16sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@color/cardbg"
+        >
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="User Name"
+            android:textColor="@color/headercolor"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:textSize="25sp"
+            android:text="User address"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/type"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="Complaint type"
+            android:layout_marginTop="3dp" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Complaint"
+            android:layout_marginTop="3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Status:"
+            android:layout_marginTop="3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:textSize="25sp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/compID"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/baseline_delete_24"
+            android:tint="@color/primary_text"
+            android:id="@+id/delete"
+            android:layout_gravity="end"
+            />
+    </LinearLayout>
+</soup.neumorphism.NeumorphCardView>

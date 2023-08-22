@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Complaint Registration</string>
+
+
+    <string name="enter_the_password"> Enter the password</string>
+    <string name="re_enter_the_password">Re-enter the password</string>
+    <string name="create">Create</string>
+    <string name="already_have_an_account_login">Already have an account?Login</string>
+    <string name="enter_your_email_or_phone_number">Enter your email or phone number</string>
+    <string name="welcome">WELCOME</string>
+
+    <string name="LUNA">LUNA</string>
+    <string name="register">Register</string>
+    <string name="this_is_complaint_form">This is Complaint form</string>
+    <string name="login">login</string>
+    <string name="or_login_with">or Login with</string>
+    <string name="select_items">Select items</string>
+    <string name="select_items2">Select items2</string>
+
+</resources>

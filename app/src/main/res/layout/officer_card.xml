@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_8sdp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/primary_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:layout_below="@+id/name"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/primary_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/primary_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/phone"
+    android:layout_below="@+id/id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/primary_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/email"
+    android:layout_below="@id/phone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="role"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/primary_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/role"
+    android:layout_below="@id/email"
+        />
+
+
+</RelativeLayout>
+</soup.neumorphism.NeumorphCardView>

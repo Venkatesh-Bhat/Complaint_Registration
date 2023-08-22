@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Officers">
+    <soup.neumorphism.NeumorphTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Officer Details"
+        android:textSize="@dimen/_30sdp"
+        android:textColor="@color/primary_text"
+        android:id="@+id/tv"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cop"
+        android:id="@+id/img"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/recView"
+        android:layout_below="@+id/img"
+        />
+</RelativeLayout>
